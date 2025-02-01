@@ -1,0 +1,14 @@
+{
+   "build": [
+      {
+         "use": "ts",
+         "entry": "./client/index.ts",
+         "outputName": "client.js"
+      },
+      {
+         "use": "ts",
+         "entry": "./server/index.ts",
+         "outputName": "server.js"
+      }
+   ]
+}
